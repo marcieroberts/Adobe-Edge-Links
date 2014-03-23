@@ -77,7 +77,7 @@ var symbols = {
             type:'rect',
             rect:['-1px','1775px','100.1%','500px','auto','auto'],
             opacity:1,
-            fill:["rgba(158,72,127,1.00)"],
+            fill:["rgba(158,72,127,1)"],
             stroke:[0,"rgba(0,0,0,1)","none"],
             userClass:"color4"
          },
