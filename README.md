@@ -1,4 +1,4 @@
-Adobe-Edge-Links
+Adobe Edge Links
 ================
 
-Adobe Edge Links with CSS
+Links created in Adobe Edge, hover states styled with CSS.
