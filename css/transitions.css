@@ -1,0 +1,136 @@
+/*effect one*/
+p::before,
+ p::after {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+  transition: transform 0.3s, opacity 0.2s;
+}
+
+p::before {
+  margin-right: 10px;
+  content: '['; /*changeable -- be creative!*/
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+p::after {
+  margin-left: 10px;
+  content: ']'; /*changeable -- be creative!*/
+  -webkit-transform: translateX(-20px);
+  -moz-transform: translateX(-20px);
+  transform: translateX(-20px);
+}
+
+p:hover::before,
+p:hover::after,
+p:focus::before,
+p:focus::after {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+
+/*effect two - dashed lines under the hover*/
+h1 {
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+h1::before {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  color: transparent;
+  content: '-'; /*can change to bullet or asterisk be creative!*/
+  text-shadow: 0 0 transparent;
+  font-size: .5em;
+  -webkit-transition: text-shadow 0.3s, color 0.3s;
+  -moz-transition: text-shadow 0.3s, color 0.3s;
+  transition: text-shadow 0.3s, color 0.3s;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+h1:hover::before,
+h1:focus::before {
+  color: #fff;
+  text-shadow: 10px 0 #fff, -10px 0 #fff;
+}
+
+h1:hover,
+h1:focus {
+  color: #ba7700;
+}
+
+/*effect three*/
+h2 {
+  margin: 0 10px;
+  padding: 10px 20px;
+}
+
+h2::before {
+  position: absolute;;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  content: '';
+  background: #fff; /*must be here*/
+  -webkit-transition: top 0.3s;
+  -moz-transition: top 0.3s;
+  transition: top 0.3s;
+}
+h2::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  background: #fff; /*must be here*/
+  content: '';
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;
+}
+
+h2:hover::before{ 
+  top: 100%;
+  opacity: 1;
+}
+h2:hover::after {
+ height: 100%;
+}
+
+
+
+/*effect text-transform*/
+.effect1 {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+ 
+.effect2 {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.effect3 {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.effect4 {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* backgrounds */
+.color4 {
+    background: rgba(158,72,127,1.00);
+}
