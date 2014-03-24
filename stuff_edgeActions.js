@@ -27,29 +27,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_Text3}", "click", function(sym, e) {
-         window.open("http://www.adobe.com", "_self");
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindElementAction(compId, symbolName, "${_Text3Copy3}", "click", function(sym, e) {
-         window.open("http://www.adobe.com", "_self");
+      
 
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_Text3Copy4}", "click", function(sym, e) {
-         window.open("http://www.adobe.com", "_self");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_Text3Copy5}", "click", function(sym, e) {
-         window.open("http://www.adobe.com", "_self");
-
-      });
-      //Edge binding end
+      
 
    })("stage");
    //Edge symbol end:'stage'
@@ -69,5 +53,51 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    
    })("bracket1");
    //Edge symbol end:'bracket1'
+
+   //=========================================================
+   
+   //Edge symbol: 'effect5'
+   (function(symbolName) {   
+   
+   })("effect5");
+   //Edge symbol end:'effect5'
+
+   //=========================================================
+   
+   //Edge symbol: 'effect4'
+   (function(symbolName) {   
+   
+   })("effect4");
+   //Edge symbol end:'effect4'
+
+   //=========================================================
+   
+   //Edge symbol: 'effect3'
+   (function(symbolName) {   
+   
+   })("effect3");
+   //Edge symbol end:'effect3'
+
+   //=========================================================
+   
+   //Edge symbol: 'effect2'
+   (function(symbolName) {   
+   
+   })("effect2");
+   //Edge symbol end:'effect2'
+
+   //=========================================================
+   
+   //Edge symbol: 'effect1'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_Text3}", "click", function(sym, e) {
+         window.open("http://www.adobe.com", "_self");
+
+      });
+         //Edge binding end
+
+   })("effect1");
+   //Edge symbol end:'effect1'
 
 })(jQuery, AdobeEdge, "EDGE-274924497");
