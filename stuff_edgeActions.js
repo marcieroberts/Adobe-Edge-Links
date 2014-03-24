@@ -116,4 +116,20 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    })("effect7");
    //Edge symbol end:'effect7'
 
+   //=========================================================
+   
+   //Edge symbol: 'effect8'
+   (function(symbolName) {   
+   
+   })("effect8");
+   //Edge symbol end:'effect8'
+
+   //=========================================================
+   
+   //Edge symbol: 'effect9'
+   (function(symbolName) {   
+   
+   })("effect9");
+   //Edge symbol end:'effect9'
+
 })(jQuery, AdobeEdge, "EDGE-274924497");

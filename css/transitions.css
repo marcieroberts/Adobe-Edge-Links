@@ -269,6 +269,62 @@
   transform: translateX(-50%) translateY(-50%) scale(1);
 }
 
+/* effect 8 criss-cross*/
+.effect8 {
+  position: relative;
+  z-index: 1;
+  padding: 8px;
+}
+.effect8::before,
+.effect8::after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  margin-top: 1px;
+  background: rgba(0,0,0,0.1);
+  content: '';
+  z-index: -1;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  pointer-events: none;
+}
+.effect8::after{
+  -webkit-transform: translateY(20px);
+  -moz-transform: translateY(20px);
+  transform: translateY(20px);
+}
+.effect8::before{
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  transform: translateY(-20px);
+}
+.effect8:hover,
+.effect8:focus {
+  color: #fff;
+}
+.effect8:hover::after,
+.effect8:focus::after{
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.effect8:hover::before,
+.effect8:focus::before{
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.effect8:hover::after,
+.effect8:focus::after,
+.effect8:hover::before,
+.effect8:focus::before {
+  opacity: 0.7;
+}
+/* effect 9 criss-cross*/
+
 /*text-transform*/
 .effect1 {
     text-transform: uppercase;
@@ -297,6 +353,14 @@
     cursor: pointer;
 }
 .effect7 {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.effect8 {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.effect9 {
     text-transform: uppercase;
     cursor: pointer;
 }
