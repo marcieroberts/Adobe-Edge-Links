@@ -1,3 +1,5 @@
+/* inspired by codrops*/
+
 /*effect one*/
 .effect1::before,
 .effect1::after {
@@ -95,7 +97,7 @@
   width: 2px;
   height: 2px;
   background: #fff; /*must be here*/
-  content: '';
+  content: ''; /*leave blank*/
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
   transition: height 0.3s;
@@ -112,7 +114,7 @@
 
 /* effect four - two borders*/
 .effect4 {
-  padding: 12px 10px 10px;
+  padding: 5px 5px 10px;
 }
 
 .effect4::before,
@@ -154,35 +156,118 @@
   opacity: 1;
 }
 
-/* effect five - border drop*/
+/* effect five - two border shift*/
 .effect5 {
-  padding: 8px 0;
+  padding: 5px;
 }
-.effect5::after {
+.effect5::after{
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
   height: 3px;
-  background: rgba(0,0,0,0.1);
+  background: #219b55;
   content: '';
   opacity: 0;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   -moz-transition: opacity 0.3s, -moz-transform 0.3s;
   transition: opacity 0.3s, transform 0.3s;
-  -webkit-transfrom: translateY(10px);
-  -moz-transfrom: translateY(10px);
-  transform: translateY(10px);
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+.effect5::before {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #219b55;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  transform: translateX(20px);
 }
 
 .effect5:hover::after,
-.effect5:focus::after {
+.effect5:hover::before,
+.effect5:focus::after,
+.effect5:focus::before {
   opacity: 1;
-  -webkit-transfrom: translateY(0px);
-  -moz-transfrom: translateY(0px);
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
+}
+/* effect 6 bottom border slides in*/
+.effect6 {
+  padding: 8px 0;
+}
+.effect6::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #0b6aa6;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: translateY(20px);
+  -moz-transform: translateY(20px);
+  transform: translateY(20px);
+}
+
+.effect6:hover::after{
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
   transform: translateY(0px);
 }
 
+/* effect 7 circle fades in*/
+.effect7::before,
+.effect7::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgba(0,0,0,0.1);
+  border-radius: 50%;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: translateY(-50%) translateX(-50%) scale(0.2);
+  -moz-transform: translateY(-50%) translateX(-50%) scale(0.2);
+  transform: translateY(-50%) translateX(-50%) scale(0.2);
+}
+.effect7::after{
+  width: 90px;
+  height: 90px;
+  border-width: 6px;
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(0.8);
+  -moz-transform: translateX(-50%) translateY(-50%) scale(0.8);
+  transform: translateX(-50%) translateY(-50%) scale(0.8);
+}
+
+.effect7:hover::after,
+.effect7:focus::after,
+.effect7:hover::before,
+.effect7:focus::before {
+  opacity: 1;
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+  -moz-transform: translateX(-50%) translateY(-50%) scale(1);
+  transform: translateX(-50%) translateY(-50%) scale(1);
+}
 
 /*text-transform*/
 .effect1 {
@@ -204,6 +289,14 @@
 }
 
 .effect5 {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.effect6 {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.effect7 {
     text-transform: uppercase;
     cursor: pointer;
 }

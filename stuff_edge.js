@@ -69,7 +69,7 @@ var symbols = {
             id:'RectangleCopy10',
             type:'rect',
             rect:['-1px','2775px','100.1%','500px','auto','auto'],
-            fill:["rgba(14,131,205,1.00)"],
+            fill:["rgba(14,131,205,1)"],
             stroke:[0,"rgba(0,0,0,1)","none"]
          },
          {
@@ -190,6 +190,58 @@ var symbols = {
             userClass:"effect5"
          },
          {
+            id:'effect7',
+            type:'rect',
+            rect:['16.1%','3520','16.5%','auto','auto','auto']
+         },
+         {
+            id:'effect7Copy',
+            type:'rect',
+            rect:['34.3%','3520','16.5%','auto','auto','auto']
+         },
+         {
+            id:'effect7Copy2',
+            type:'rect',
+            rect:['51.4%','3520','16.5%','auto','auto','auto']
+         },
+         {
+            id:'effect7Copy3',
+            type:'rect',
+            rect:['68.7%','3520','16.5%','auto','auto','auto']
+         },
+         {
+            id:'Text2Copy3',
+            type:'text',
+            rect:['-460px','3510px','194px','41px','auto','auto'],
+            text:"Gannett",
+            align:"center",
+            font:['source-sans-pro, sans-serif',36,"rgba(236,240,241,1)","300","none","normal"]
+         },
+         {
+            id:'effect6',
+            type:'rect',
+            rect:['19.8%','3002px','10.8%','auto','auto','auto'],
+            userClass:""
+         },
+         {
+            id:'effect6Copy',
+            type:'rect',
+            rect:['36.8%','3001px','10.8%','auto','auto','auto'],
+            userClass:""
+         },
+         {
+            id:'effect6Copy2',
+            type:'rect',
+            rect:['53.5%','3001px','10.8%','auto','auto','auto'],
+            userClass:""
+         },
+         {
+            id:'effect6Copy3',
+            type:'rect',
+            rect:['71.1%','3002px','10.8%','auto','auto','auto'],
+            userClass:""
+         },
+         {
             id:'effect5Copy',
             type:'rect',
             rect:['53.5%','2522px','10.4%','auto','auto','auto'],
@@ -227,6 +279,10 @@ var symbols = {
             symbolName:'effect3'
          },
          {
+            id:'effect7Copy3',
+            symbolName:'effect7'
+         },
+         {
             id:'effect3',
             symbolName:'effect3'
          },
@@ -239,8 +295,16 @@ var symbols = {
             symbolName:'effect4'
          },
          {
+            id:'effect6Copy3',
+            symbolName:'effect6'
+         },
+         {
             id:'effect2Copy2',
             symbolName:'effect2'
+         },
+         {
+            id:'effect6',
+            symbolName:'effect6'
          },
          {
             id:'effect1Copy3',
@@ -259,12 +323,32 @@ var symbols = {
             symbolName:'effect2'
          },
          {
+            id:'effect5Copy',
+            symbolName:'effect5'
+         },
+         {
+            id:'effect6Copy2',
+            symbolName:'effect6'
+         },
+         {
+            id:'effect6Copy',
+            symbolName:'effect6'
+         },
+         {
+            id:'effect7',
+            symbolName:'effect7'
+         },
+         {
             id:'effect5Copy2',
             symbolName:'effect5'
          },
          {
-            id:'effect5Copy',
-            symbolName:'effect5'
+            id:'effect1',
+            symbolName:'effect1'
+         },
+         {
+            id:'effect7Copy',
+            symbolName:'effect7'
          },
          {
             id:'effect3Copy3',
@@ -275,8 +359,8 @@ var symbols = {
             symbolName:'effect5'
          },
          {
-            id:'effect1',
-            symbolName:'effect1'
+            id:'effect7Copy2',
+            symbolName:'effect7'
          },
          {
             id:'effect4Copy',
@@ -286,12 +370,69 @@ var symbols = {
       },
    states: {
       "Base State": {
-         "${_RectangleCopy11}": [
-            ["style", "top", '3275px'],
-            ["style", "height", '500px'],
-            ["color", "background-color", 'rgba(239,94,80,1.00)'],
-            ["style", "left", '-1px'],
-            ["style", "width", '100.09%']
+         "${_effect7Copy3}": [
+            ["style", "left", '68.73%'],
+            ["style", "width", '16.45%']
+         ],
+         "${_effect5Copy2}": [
+            ["style", "top", '2522px'],
+            ["style", "left", '68.73%'],
+            ["style", "width", '10.43%']
+         ],
+         "${_effect1}": [
+            ["style", "width", '12.55%']
+         ],
+         "${_effect4Copy}": [
+            ["style", "left", '37.8%'],
+            ["style", "width", '10.43%']
+         ],
+         "${_effect6Copy}": [
+            ["style", "top", '3001px'],
+            ["style", "left", '36.83%'],
+            ["style", "width", '10.77%']
+         ],
+         "${_effect7}": [
+            ["style", "width", '16.45%']
+         ],
+         "${_effect5Copy3}": [
+            ["style", "top", '2524px'],
+            ["style", "left", '21.19%'],
+            ["style", "width", '10.43%']
+         ],
+         "${_effect2Copy}": [
+            ["style", "left", '39.66%'],
+            ["style", "width", '10.43%']
+         ],
+         "${_effect2Copy2}": [
+            ["style", "left", '57.03%'],
+            ["style", "width", '10.43%']
+         ],
+         "${_effect1Copy}": [
+            ["style", "left", '38.64%'],
+            ["style", "width", '12.55%']
+         ],
+         "${_effect7Copy2}": [
+            ["style", "left", '51.36%'],
+            ["style", "width", '16.45%']
+         ],
+         "${_TextCopy}": [
+            ["color", "color", 'rgba(115,115,115,1.00)'],
+            ["style", "font-weight", '300'],
+            ["style", "left", '0.08%'],
+            ["style", "font-size", '24px'],
+            ["style", "top", '153px'],
+            ["style", "text-align", 'center'],
+            ["style", "height", '60px'],
+            ["style", "font-family", 'source-sans-pro, sans-serif'],
+            ["style", "width", '100%']
+         ],
+         "${_effect3Copy3}": [
+            ["style", "left", '70.26%'],
+            ["style", "width", '10.43%']
+         ],
+         "${_effect7Copy}": [
+            ["style", "left", '34.32%'],
+            ["style", "width", '16.45%']
          ],
          "${_effect4Copy3}": [
             ["style", "left", '69.49%'],
@@ -304,36 +445,21 @@ var symbols = {
             ["style", "left", '0px'],
             ["style", "width", '100.09%']
          ],
-         "${_effect3}": [
-            ["style", "left", '21.19%'],
-            ["style", "width", '10.43%']
-         ],
          "${_effect2Copy3}": [
             ["style", "left", '76.3%'],
             ["style", "width", '10.43%']
          ],
-         "${_RectangleCopy15}": [
-            ["style", "top", '3770px'],
-            ["style", "height", '500px'],
-            ["color", "background-color", 'rgba(236,240,241,1.00)'],
-            ["style", "left", '-1px'],
-            ["style", "width", '100.09%']
+         "${_Text2Copy3}": [
+            ["style", "height", '41px'],
+            ["style", "top", '3510px'],
+            ["style", "left", '-460px'],
+            ["style", "width", '194px']
          ],
          "${_effect4}": [
             ["style", "left", '21.19%'],
             ["style", "width", '10.43%']
          ],
-         "${_Stage}": [
-            ["color", "background-color", 'rgba(255,255,255,1)'],
-            ["style", "overflow", 'hidden'],
-            ["style", "height", '4154px'],
-            ["style", "width", '100%']
-         ],
          "${_effect2}": [
-            ["style", "width", '10.43%']
-         ],
-         "${_effect4Copy2}": [
-            ["style", "left", '53.47%'],
             ["style", "width", '10.43%']
          ],
          "${_RectangleCopy2}": [
@@ -343,9 +469,8 @@ var symbols = {
             ["style", "left", '0px'],
             ["style", "width", '100.09%']
          ],
-         "${_effect5Copy2}": [
-            ["style", "top", '2522px'],
-            ["style", "left", '68.73%'],
+         "${_effect4Copy2}": [
+            ["style", "left", '53.47%'],
             ["style", "width", '10.43%']
          ],
          "${_Rectangle}": [
@@ -355,32 +480,20 @@ var symbols = {
             ["style", "left", '-1px'],
             ["style", "width", '100.09%']
          ],
-         "${_RectangleCopy10}": [
-            ["style", "top", '2775px'],
-            ["style", "height", '500px'],
-            ["color", "background-color", 'rgba(14,131,205,1.00)'],
-            ["style", "left", '-1px'],
-            ["style", "width", '100.09%']
+         "${_effect6Copy3}": [
+            ["style", "top", '3002px'],
+            ["style", "left", '71.06%'],
+            ["style", "width", '10.77%']
          ],
-         "${_effect4Copy}": [
-            ["style", "left", '37.8%'],
-            ["style", "width", '10.43%']
+         "${_effect6}": [
+            ["style", "top", '3002px'],
+            ["style", "left", '19.75%'],
+            ["style", "width", '10.77%']
          ],
-         "${_Text}": [
-            ["color", "color", 'rgba(115,115,115,1.00)'],
-            ["style", "font-weight", '300'],
-            ["style", "left", '0%'],
-            ["style", "font-size", '72px'],
-            ["style", "top", '66px'],
-            ["style", "text-align", 'center'],
-            ["style", "height", '117px'],
-            ["style", "font-family", 'source-sans-pro, sans-serif'],
-            ["style", "width", '100%']
-         ],
-         "${_effect1Copy3}": [
-            ["style", "top", '505px'],
-            ["style", "left", '73.98%'],
-            ["style", "width", '12.55%']
+         "${_effect6Copy2}": [
+            ["style", "top", '3001px'],
+            ["style", "left", '53.49%'],
+            ["style", "width", '10.77%']
          ],
          "${_effect1Copy2}": [
             ["style", "top", '505px'],
@@ -392,23 +505,29 @@ var symbols = {
             ["style", "left", '53.47%'],
             ["style", "width", '10.43%']
          ],
-         "${_effect3Copy2}": [
-            ["style", "left", '55.22%'],
-            ["style", "width", '10.43%']
+         "${_RectangleCopy15}": [
+            ["style", "top", '3770px'],
+            ["style", "height", '500px'],
+            ["color", "background-color", 'rgba(236,240,241,1.00)'],
+            ["style", "left", '-1px'],
+            ["style", "width", '100.09%']
          ],
          "${_effect5}": [
             ["style", "top", '2524px'],
             ["style", "left", '36.95%'],
             ["style", "width", '10.43%']
          ],
-         "${_effect5Copy3}": [
-            ["style", "top", '2524px'],
-            ["style", "left", '21.19%'],
-            ["style", "width", '10.43%']
+         "${_RectangleCopy11}": [
+            ["style", "top", '3275px'],
+            ["style", "height", '500px'],
+            ["color", "background-color", 'rgba(239,94,80,1.00)'],
+            ["style", "left", '-1px'],
+            ["style", "width", '100.09%']
          ],
-         "${_effect2Copy}": [
-            ["style", "left", '39.66%'],
-            ["style", "width", '10.43%']
+         "${_effect1Copy3}": [
+            ["style", "top", '505px'],
+            ["style", "left", '73.98%'],
+            ["style", "width", '12.55%']
          ],
          "${_RectangleCopy14}": [
             ["style", "top", '1275px'],
@@ -425,34 +544,40 @@ var symbols = {
             ["style", "left", '-1px'],
             ["style", "width", '100.09%']
          ],
-         "${_effect2Copy2}": [
-            ["style", "left", '57.03%'],
-            ["style", "width", '10.43%']
+         "${_Text}": [
+            ["color", "color", 'rgba(115,115,115,1.00)'],
+            ["style", "font-weight", '300'],
+            ["style", "left", '0%'],
+            ["style", "font-size", '72px'],
+            ["style", "top", '66px'],
+            ["style", "text-align", 'center'],
+            ["style", "height", '117px'],
+            ["style", "font-family", 'source-sans-pro, sans-serif'],
+            ["style", "width", '100%']
          ],
-         "${_effect1Copy}": [
-            ["style", "left", '38.64%'],
-            ["style", "width", '12.55%']
+         "${_effect3}": [
+            ["style", "left", '21.19%'],
+            ["style", "width", '10.43%']
          ],
          "${_effect3Copy}": [
             ["style", "left", '37.8%'],
             ["style", "width", '10.43%']
          ],
-         "${_effect1}": [
-            ["style", "width", '12.55%']
-         ],
-         "${_TextCopy}": [
-            ["color", "color", 'rgba(115,115,115,1.00)'],
-            ["style", "font-weight", '300'],
-            ["style", "left", '0.08%'],
-            ["style", "font-size", '24px'],
-            ["style", "top", '153px'],
-            ["style", "text-align", 'center'],
-            ["style", "height", '60px'],
-            ["style", "font-family", 'source-sans-pro, sans-serif'],
+         "${_Stage}": [
+            ["color", "background-color", 'rgba(255,255,255,1)'],
+            ["style", "overflow", 'hidden'],
+            ["style", "height", '4154px'],
             ["style", "width", '100%']
          ],
-         "${_effect3Copy3}": [
-            ["style", "left", '70.26%'],
+         "${_RectangleCopy10}": [
+            ["style", "top", '2775px'],
+            ["style", "height", '500px'],
+            ["color", "background-color", 'rgba(14,131,205,1.00)'],
+            ["style", "left", '-1px'],
+            ["style", "width", '100.09%']
+         ],
+         "${_effect3Copy2}": [
+            ["style", "left", '55.22%'],
             ["style", "width", '10.43%']
          ]
       }
@@ -586,7 +711,6 @@ var symbols = {
    {
       rect: ['0%','0px','99.6%','39px','auto','auto'],
       font: ['source-sans-pro, sans-serif',36,'rgba(236,240,241,1.00)','300','none','normal'],
-      userClass: 'effect5',
       id: 'Text3Copy18',
       text: 'Gannett',
       align: 'center',
@@ -807,6 +931,100 @@ var symbols = {
          "${symbolSelector}": [
             ["style", "height", '47px'],
             ["style", "width", '148px']
+         ]
+      }
+   },
+   timelines: {
+      "Default Timeline": {
+         fromState: "Base State",
+         toState: "",
+         duration: 0,
+         autoPlay: true,
+         timeline: [
+         ]
+      }
+   }
+},
+"effect6": {
+   version: "2.0.1",
+   minimumCompatibleVersion: "2.0.0",
+   build: "2.0.1.268",
+   baseState: "Base State",
+   initialState: "Base State",
+   gpuAccelerate: false,
+   resizeInstances: false,
+   content: {
+   dom: [
+   {
+      rect: ['0px','0px','156px','47px','auto','auto'],
+      font: ['source-sans-pro, sans-serif',36,'rgba(236,240,241,1)','300','none','normal'],
+      userClass: 'effect6',
+      id: 'Text2Copy',
+      text: 'Gannett',
+      align: 'center',
+      type: 'text'
+   }],
+   symbolInstances: [
+   ]
+   },
+   states: {
+      "Base State": {
+         "${_Text2Copy}": [
+            ["style", "height", '47px'],
+            ["style", "top", '0px'],
+            ["style", "left", '0px'],
+            ["style", "width", '156px']
+         ],
+         "${symbolSelector}": [
+            ["style", "height", '47px'],
+            ["style", "width", '156px']
+         ]
+      }
+   },
+   timelines: {
+      "Default Timeline": {
+         fromState: "Base State",
+         toState: "",
+         duration: 0,
+         autoPlay: true,
+         timeline: [
+         ]
+      }
+   }
+},
+"effect7": {
+   version: "2.0.1",
+   minimumCompatibleVersion: "2.0.0",
+   build: "2.0.1.268",
+   baseState: "Base State",
+   initialState: "Base State",
+   gpuAccelerate: false,
+   resizeInstances: false,
+   content: {
+   dom: [
+   {
+      rect: ['0px','0px','194px','41px','auto','auto'],
+      font: ['source-sans-pro, sans-serif',36,'rgba(236,240,241,1)','300','none','normal'],
+      userClass: 'effect7',
+      id: 'Text2',
+      text: 'Gannett',
+      align: 'center',
+      type: 'text'
+   }],
+   symbolInstances: [
+   ]
+   },
+   states: {
+      "Base State": {
+         "${_Text2}": [
+            ["style", "height", '41px'],
+            ["style", "top", '0px'],
+            ["style", "left", '0px'],
+            ["style", "width", '194px']
+         ],
+         "${symbolSelector}": [
+            ["style", "height", '41px'],
+            ["style", "width", '194px']
          ]
       }
    },
